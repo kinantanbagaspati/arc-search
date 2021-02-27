@@ -101,3 +101,33 @@ form p{
     text-align: center;
     margin-top: 5vh;
 }
+.recents{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+}
+.recent{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.recent:hover{
+    background-color: grey;
+}
+.recent-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.txt {
+    color: black;
+    margin-top: 25px;
+}
+.txt:hover{
+    text-decoration: none;
+}
